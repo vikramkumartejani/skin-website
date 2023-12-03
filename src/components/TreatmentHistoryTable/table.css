@@ -1,0 +1,7 @@
+.table-container{
+    border: 1px solid rgba(76, 77, 79, 0.2);
+    margin: 1rem 0;
+    border-radius: 14px;
+    padding: 1rem;
+    overflow-x: hidden;
+}

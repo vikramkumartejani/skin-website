@@ -1,0 +1,14 @@
+.content{
+    width: 80%;
+}
+.side-bar{
+    width: 20%;
+}
+@media screen and (max-width: 1024px) {
+    .content{
+        width: 100%;
+    }
+    .side-bar{
+        display: none;
+    }
+  }

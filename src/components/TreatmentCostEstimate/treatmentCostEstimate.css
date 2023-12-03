@@ -1,0 +1,286 @@
+.costestimate-container {
+    border-radius: 14px;
+    width: 100%;
+    margin: 2rem 0;
+    padding-bottom: .5rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+.costestimate-container h1{
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(76, 77, 79, 1);
+}
+.treatmentcostcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    gap: .8rem;
+}
+.costestimate-content{
+    width: 60%;
+}
+.costestimate-content h2{
+    color: rgba(76, 77, 79, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.select-btn{
+    margin-top: .5rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.select-btn button{
+    border-radius: 14px;
+    font-size: 12px;
+    background: none;
+    color: rgba(76, 77, 79, .7);
+    padding: .8rem 3rem;
+    border: 1px solid rgba(76, 77, 79, 0.2);
+}
+.treatmentcost-content{
+    width: 60%;
+}
+.prp-injection{
+    padding: 1rem 0;
+}
+.prp-injection h3{
+    font-size: 20px;
+    padding-bottom: .5rem;
+    color: rgba(76, 77, 79, 1);
+    font-weight: 400;
+}
+.prp-injection p{
+    line-height: 21px;
+    font-size: 14px;
+    color: rgba(76, 77, 79, 0.5);
+    font-weight: 400;
+}
+.area-duration{
+    line-height: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.treatment-areas{
+    width: 50%;
+    padding: 0 0 1rem 0;
+}
+.treatment-areas h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(76, 77, 79, 1);
+}
+.treatment-areas p{
+    font-size: 14px;
+    color: rgba(76, 77, 79, 0.5);
+}
+.duration{
+    width: 50%;
+}
+.duration h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(76, 77, 79, 1);
+}
+.duration p{
+    font-size: 14px;
+    color: rgba(76, 77, 79, 0.5);
+}
+.treatmentprocess h3{
+    color: rgba(76, 77, 79, 1);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: .5rem;
+}
+
+.treatmentprocess p{
+    line-height: 21px;
+    color: rgba(76, 77, 79, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: .7rem;
+}
+.risk-recovery{
+    padding: 1rem 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    line-height: 1.5rem;
+}
+.risk-recovery h3{
+    padding: .4rem 0;
+    color: rgba(76, 77, 79, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.risk-recovery p{
+    margin-bottom: .5rem;
+    color: rgba(76, 77, 79, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.risk{
+    width: 50%;
+}
+.recovery{
+   width: 50%; 
+}
+.payment-box-detail{
+    width: 40%;
+}
+.payment-box{
+    padding: 1rem;
+    border-radius: 14px;
+    background-color: rgba(248, 248, 248, 1);
+    border: 1px solid rgba(76, 77, 79, 0.2);
+}
+.payment-box .payment-detail{
+    padding: .8rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: rgba(225, 208, 193, 1);
+    border-radius: 14px;
+}
+.payment-detail h2{
+    padding-bottom: .5rem;
+    color: rgba(76, 77, 79, 1);
+    font-size: 17px;
+    font-weight: 400;
+}
+.price-heading p{
+    color: rgba(76, 77, 79, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+}
+.price h3{
+    padding-bottom: .5rem;
+    color: rgba(76, 77, 79, 1);
+    font-size: 17px;
+    font-weight: 400;
+}
+.price p{
+    font-size: 10px;
+    color: rgba(76, 77, 79, 0.5);
+    font-weight: 400;
+}
+
+.payment-checkbox{
+    margin: 1rem;
+}
+.checkbox{
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.checkbox label{
+    color: rgba(76, 77, 79, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dropdow-payment{
+    width: 100%;
+    border-radius: 14px;
+    padding: .8rem 1rem;
+    border: 1px solid rgba(76, 77, 79, 0.2);
+    color: rgba(76, 77, 79, 1);
+    outline: none;
+}
+
+.book-now-btn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 1rem 0;
+    padding: .8rem;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+}
+
+.treatment-benefits{
+    margin: 1rem 0;
+}
+.treatment-benefits h3{
+    padding-bottom: .8rem;
+    color: rgba(76, 77, 79, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.treatment-benefits p{
+    padding-bottom: .8rem;
+    color: rgba(76, 77, 79, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.treatment-benefits img{
+    margin: 1rem 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1024px){
+    .costestimate-content{
+        width: 100%;
+    }
+    .payment-box-detail{
+        width: 100%;
+    }
+    .payment-box{
+        width: 50%;
+    }
+    .treatmentcostcontent{
+        flex-direction: column;
+    }
+    .treatment-benefits img{
+        margin: 1rem 0;
+        width: 50%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    .costestimate-content{
+        width: 100%;
+    }
+    .payment-box{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .select-btn{
+        justify-content: center;
+    }
+    .select-btn button{ 
+        width: 100%;
+    }  
+}
+@media screen and (max-width: 350px){
+    .payment-box .payment-detail{
+        gap: .3rem;
+    }
+    .payment-detail h2{
+        padding-bottom: .1rem;
+        font-size: 11px;
+    }
+    .price-heading p{
+        font-size: 9px;
+    }
+    .price h3 {
+        font-size: 11px;
+        padding-bottom: .1rem;
+    }
+    .price p{
+        font-size: 8px;
+    }
+}
+
+

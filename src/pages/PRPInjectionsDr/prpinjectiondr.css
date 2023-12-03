@@ -1,0 +1,286 @@
+.docter-container{
+    background-color: rgba(255, 249, 241, 1);
+    padding: 1rem 2rem;
+}
+.headerdr-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.headerdr-container h1{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(76, 77, 79, 1);
+}
+.dr-btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.dr-btns input{
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.dr-btns button{
+    font-weight: 400;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    color: rgba(76, 77, 79, 1);
+    background: none;
+}
+.docter-timing{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+.docter-timing h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(76, 77, 79, 1);
+}
+.docter-info{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+.docter-info .patient-detail{
+    border-radius: 14px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    width: 35%;
+}
+.patient-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+.patient-content h3{
+    color: rgba(76, 77, 79, 1);
+    font-size: 20px;
+    padding-bottom: .5rem;
+}
+.patient-content span{
+    font-size: 12px;
+    color: rgba(76, 77, 79, 1);
+
+}
+.contact-info{
+    display: flex;
+    gap: 1rem;
+}
+.contact-dr{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+.patient-detail .appointments{
+    border-radius: 14px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: rgba(248, 248, 248, 1);
+}
+.appointments h3{
+    color: rgba(76, 77, 79, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.appointment-detail{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.petient-pa-comi{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+.petient-pa-comi h3{
+    color: rgba(76, 77, 79, 1);
+    font-size: 20px;
+}
+.petient-pa-comi p{
+    font-size: 15px;
+    color: rgba(76, 77, 79, 1);
+}
+.patient-detail .petient-personal-detail{
+
+}
+.personal-detail{
+    display: flex;
+    padding: .8rem 0;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(52, 52, 52, 1);
+}
+.personal-detail h3{
+    color: rgba(76, 77, 79, 1);
+    font-size: 14px;
+}
+.peitent-info{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    align-items: center;
+}
+.every-detail{
+    margin: .8rem 0;
+}
+.every-detail h6{
+    font-size: 12px;
+    color: rgba(76, 77, 79, 1);
+    padding: .2rem 0;
+}
+.every-detail p{
+    font-size: 12px;
+    color: rgba(76, 77, 79, 0.5);
+    padding: .2rem 0;
+}
+
+.docter-info .notes-container{
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    width: 65%;
+    border-radius: 14px;
+}
+.notes-container h3{
+    color: rgba(76, 77, 79, 1);
+    font-size: 18px;
+    font-weight: 700;
+}
+.notes-container .notes-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.notes-content .note-detail{
+    border-radius: 14px;
+    padding: .8rem;
+    background-color: rgba(248, 248, 248, 1);
+}
+.note-detail p{
+    text-align: justify;
+    color: rgba(76, 77, 79, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.note-detail .note-images{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    gap: .5rem;
+}
+.note-images img{
+    width: 125px;
+    height: 200px;
+}
+.sendnote{
+    border:  1px solid rgba(76, 77, 79, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem .5rem;
+    border-radius: 10px;
+}
+.sendnote input{
+    border: none;
+    font-size: 10px;
+    color: rgba(76, 77, 79, 0.5);
+    background: none;
+    width: 100%;
+    outline: none;
+}
+.icon-send-note{
+    background-color: rgba(241, 179, 74, 1);
+    color: white;
+    border-radius: 5px;
+    padding: .1rem .2rem;
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.note-detail-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.treatment-performed-container{
+    padding: 1rem;
+    border-radius: 14px;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.treatment-performed-container h3{
+    color: rgba(76, 77, 79, 1);
+    font-size: 12px;
+    font-weight: 700;
+}
+.treatment-performed-container p{
+    color: rgba(76, 77, 79, 1);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.treatment-performed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.treatment-performed h3{
+    color: rgba(76, 77, 79, 1);
+    font-size: 12px;
+    font-weight: 700;
+}
+.treatment-performed p{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(76, 77, 79, 0.5);
+
+}
+
+.note-container-btn{
+
+}
+.note-container-btn button{
+    
+}
+
+@media screen and (max-width: 1024px){
+    .docter-timing{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .docter-info .notes-container{
+        width: 100%;
+    }
+    .docter-info{
+        flex-direction: column;
+    }
+    .docter-info .patient-detail{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .docter-container{
+        padding: 1rem;
+    }
+    .dr-btns input{
+       display: none;
+    }
+}

@@ -1,0 +1,54 @@
+.medical-container{
+    border-radius: 14px;
+    width: 30%;
+    padding-bottom: .5rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+.medical-container h3{
+    padding: 1rem;
+    color: rgba(76, 77, 79, 1);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.medical-container .Allergies{
+    margin: 1rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(76, 77, 79, 0.2);
+}
+.Allergies .heading-allergies{
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    justify-content: space-between;
+}
+.Allergies .heading-allergies h3{
+    font-size: 12px;
+}
+
+.Allergies .items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(76, 77, 79, 0.1);
+    border-bottom: 1px solid rgba(76, 77, 79, 0.2);
+    padding-right: 1rem;
+}
+.Allergies .items h3{
+    padding: .7rem 1rem;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .medical-container{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .medical-container{
+        width: 100%;
+    }
+}
+
+
